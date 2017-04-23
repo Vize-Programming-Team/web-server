@@ -1,0 +1,26 @@
+{
+  "questions": [
+    {
+      "body": "What are your working hours like?",
+      "kind": "text"
+    },
+    {
+      "body": "How impactful do you think this project is?",
+      "kind": "text"
+    },
+    {
+      "body": "Are you happy with your working conditions?",
+      "kind": "yes-no"
+    },
+    {
+      "body": "What do you like most about your job?",
+      "kind": "text"
+    },
+    {
+      "body": "What do you like least about your job?",
+      "kind": "text"
+    }
+
+  ],
+  "title": "Review Survey"
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Survey Results</title>
+</head>
+<body>
+
+    <h1>{{ survey_title }}</h1>
+
+    {% if responses|length < 1 %}
+        <p>It appears there are no responses for this survey yet!</p>
+    {% endif %}
+
+    <div class="col-md-8">
+        <ul class="list-unstyled">
+        {% for response in responses %}
+            <li>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        Response from: {{ response.call_sid }}
+                        with number {{ response.phone_number }}
+                    </div>
+                    <div class="panel-body">
+                        <ol class="list-group">
+                            <li class="list-group-item">Question: {{ response.body }} </li>
+                            <li class="list-group-item">Answer type: {{ response.kind }} </li>
+                            <li class="list-group-item">
+                                {{ response.response }}
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </li>
+        {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>
