@@ -30,7 +30,7 @@ class Question(models.Model):
 
     body = models.CharField(max_length=255)
     kind = models.CharField(max_length=255, choices=QUESTION_KIND_CHOICES)
-    survey = models.ForeignKey(Survey)
+    survey = models.ForeignKey(Survey, on_delete=models.CASCADE)
 
     @classmethod
     def validate_kind(cls, kind):
@@ -52,7 +52,7 @@ class QuestionResponse(models.Model):
     response = models.CharField(max_length=500)
     call_sid = models.CharField(max_length=255)
     phone_number = models.CharField(max_length=255)
-    question = models.ForeignKey(Question)
+    question = models.ForeignKey(Question,on_delete=models.CASCADE)
 
     def __str__(self):
         return '%s' % self.response
