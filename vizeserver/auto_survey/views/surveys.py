@@ -33,10 +33,9 @@ def show_survey(request, survey_id):
     first_question_url = reverse('question', kwargs=first_question_ids)
 
     welcome = 'Hello and thank you for taking the %s survey' % survey.title
-    if request.is_sms:
-        twiml_response = MessagingResponse()
-        twiml_response.message(welcome)
-        twiml_response.redirect(first_question_url, method='GET')
+    twiml_response = MessagingResponse()
+    twiml_response.message(welcome)
+    twiml_response.redirect(first_question_url, method='GET')
 
     return HttpResponse(twiml_response, content_type='application/xml')
 
