@@ -1,5 +1,4 @@
 from twilio.twiml.messaging_response import MessagingResponse
-from twilio.twiml.voice_response import VoiceResponse
 
 from django.http import HttpResponse
 from django.core.urlresolvers import reverse
@@ -34,15 +33,14 @@ def goodbye(request):
     goodbye_messages = ['That was the last question',
                         'Thank you for taking this survey',
                         'Good-bye']
-    if request.is_sms:
-        response = MessagingResponse()
-        [response.message(message) for message in goodbye_messages]
+    response = MessagingResponse()
+    [response.message(message) for message in goodbye_messages]
 
     return HttpResponse(response)
 
 
 def save_response_from_request(request, question):
-    session_id = request.POST['MessageSid' if request.is_sms else 'CallSid']
+    session_id = request.POST['MessageSid']
     request_body = _extract_request_body(request, question.kind)
     phone_number = request.POST['From']
 
@@ -62,10 +60,8 @@ def save_response_from_request(request, question):
 def _extract_request_body(request, question_kind):
     Question.validate_kind(question_kind)
 
-    if request.is_sms:
-        key = 'Body'
-    elif question_kind in [Question.YES_NO, Question.NUMERIC]:
-        key = 'Digits'
+
+    key = 'Body'
 
 
     return request.POST.get(key)
