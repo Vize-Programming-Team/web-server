@@ -27,7 +27,7 @@ def show_survey(request, survey_id):
 
     first_question_ids = {
         'survey_id': survey.id,
-        'question_id': first_question.id
+        'question_id': first_question.id,
     }
 
     first_question_url = reverse('question', kwargs=first_question_ids)
