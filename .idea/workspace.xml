@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="593c93e1-273c-45ce-9d37-7412b1c9c606" name="Default" comment="" />
+=======
+    <list default="true" id="593c93e1-273c-45ce-9d37-7412b1c9c606" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vizeserver/.idea/workspace.xml" afterPath="$PROJECT_DIR$/vizeserver/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vizeserver/auto_survey/views/question_responses.py" afterPath="$PROJECT_DIR$/vizeserver/auto_survey/views/question_responses.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vizeserver/auto_survey/views/questions.py" afterPath="$PROJECT_DIR$/vizeserver/auto_survey/views/questions.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vizeserver/auto_survey/views/surveys.py" afterPath="$PROJECT_DIR$/vizeserver/auto_survey/views/surveys.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vizeserver/db.sqlite3" afterPath="$PROJECT_DIR$/vizeserver/db.sqlite3" />
+    </list>
+>>>>>>> origin/master
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +27,7 @@
         <entry file="file://$PROJECT_DIR$/vizeserver/auto_survey/views/surveys.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="684">
+<<<<<<< HEAD
               <caret line="36" column="35" lean-forward="false" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
               <folding>
                 <element signature="e#0#47#0" expanded="true" />
@@ -24,6 +36,11 @@
                 <marker date="1493179472203" expanded="true" signature="1572:1729" ph="..." />
                 <marker date="1493179472203" expanded="true" signature="1739:1990" ph="..." />
                 <marker date="1493179472203" expanded="true" signature="1890:1988" ph="..." />
+=======
+              <caret line="36" column="35" lean-forward="true" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#47#0" expanded="true" />
+>>>>>>> origin/master
               </folding>
             </state>
           </provider>
@@ -34,10 +51,14 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
               <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+<<<<<<< HEAD
               <folding>
                 <marker date="1493179472202" expanded="true" signature="304:541" ph="..." />
                 <marker date="1493179472202" expanded="true" signature="764:932" ph="..." />
               </folding>
+=======
+              <folding />
+>>>>>>> origin/master
             </state>
           </provider>
         </entry>
@@ -45,12 +66,18 @@
       <file leaf-file-name="question_responses.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vizeserver/auto_survey/views/question_responses.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="133">
               <caret line="7" column="5" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
               <folding>
                 <element signature="e#0#61#0" expanded="true" />
                 <marker date="1493179472197" expanded="true" signature="2220:2256" ph="..." />
               </folding>
+=======
+            <state relative-caret-position="114">
+              <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+              <folding />
+>>>>>>> origin/master
             </state>
           </provider>
         </entry>
@@ -59,18 +86,27 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+<<<<<<< HEAD
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="sms-testing" />
       </map>
     </option>
+=======
+>>>>>>> origin/master
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/vizeserver/auto_survey/views/question_responses.py" />
         <option value="$PROJECT_DIR$/vizeserver/auto_survey/views/questions.py" />
         <option value="$PROJECT_DIR$/vizeserver/auto_survey/views/surveys.py" />
+=======
+        <option value="$PROJECT_DIR$/vizeserver/auto_survey/views/surveys.py" />
+        <option value="$PROJECT_DIR$/vizeserver/auto_survey/views/question_responses.py" />
+        <option value="$PROJECT_DIR$/vizeserver/auto_survey/views/questions.py" />
+>>>>>>> origin/master
       </list>
     </option>
   </component>
@@ -228,12 +264,18 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/vizeserver/auto_survey/views/question_responses.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="133">
           <caret line="7" column="5" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
           <folding>
             <element signature="e#0#61#0" expanded="true" />
             <marker date="1493179472197" expanded="true" signature="2220:2256" ph="..." />
           </folding>
+=======
+        <state relative-caret-position="114">
+          <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding />
+>>>>>>> origin/master
         </state>
       </provider>
     </entry>
@@ -241,16 +283,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+<<<<<<< HEAD
           <folding>
             <marker date="1493179472202" expanded="true" signature="304:541" ph="..." />
             <marker date="1493179472202" expanded="true" signature="764:932" ph="..." />
           </folding>
+=======
+          <folding />
+>>>>>>> origin/master
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vizeserver/auto_survey/views/surveys.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="684">
+<<<<<<< HEAD
           <caret line="36" column="35" lean-forward="false" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
           <folding>
             <element signature="e#0#47#0" expanded="true" />
@@ -259,6 +306,11 @@
             <marker date="1493179472203" expanded="true" signature="1572:1729" ph="..." />
             <marker date="1493179472203" expanded="true" signature="1739:1990" ph="..." />
             <marker date="1493179472203" expanded="true" signature="1890:1988" ph="..." />
+=======
+          <caret line="36" column="35" lean-forward="true" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+>>>>>>> origin/master
           </folding>
         </state>
       </provider>
