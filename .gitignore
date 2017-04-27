@@ -52,4 +52,4 @@ hidden.py
 .idea/workspace.xml
 
 # Database Files
-.sqlite3
+db.sqlite3
