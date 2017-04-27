@@ -1,0 +1,8 @@
+{
+    "dev": {
+        "aws_region": "us-west-2",
+        "django_settings": "vizeserver.settings",
+        "profile_name": "default",
+        "s3_bucket": "bucket-vize"
+    }
+}

@@ -27,7 +27,7 @@ SECRET_KEY = DEVELOPMENT_KEY
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'b8bec67b.ngrok.io',
+    '3bb2c705.ngrok.io',
                  ]
 
 
