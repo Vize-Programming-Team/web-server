@@ -46,7 +46,10 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-#Hidden Files (Keys)
+# Hidden Files (Keys)
 hidden.py
 .idea/workspace.xml
 .idea/workspace.xml
+
+# Database Files
+.sqlite3
